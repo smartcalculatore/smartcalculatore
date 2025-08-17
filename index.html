@@ -3,58 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmartCalculatore</title>
+
+  <title>Smart Calculator - Free Online Tools</title>
+  <meta name="description" content="Smart Calculator offers free online calculators for math, finance, health, and more. Easy, accurate, and user-friendly.">
+  <meta name="keywords" content="calculator, online calculator, math calculator, finance calculator, health calculator, smart calculator">
+  <meta name="author" content="Smart Calculator Team">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph (for social media sharing) -->
+  <meta property="og:title" content="Smart Calculator - Free Online Tools">
+  <meta property="og:description" content="Free online calculators for math, finance, health, and more.">
+  <meta property="og:url" content="https://smartcalculatore.github.io/smartcalculatore/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Smart Calculator - Free Online Tools">
+  <meta name="twitter:description" content="Free online calculators for math, finance, health, and more.">
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>SmartCalculatore</h1>
-    <input type="text" id="search" placeholder="Search calculator...">
-    <button id="toggleMode">🌙/☀️</button>
-  </header>
-
-  <main id="calculators">
-    <section id="currency">
-      <h2>Currency Converter</h2>
-      <input id="amount" type="number" placeholder="Amount">
-      <select id="from"></select> → <select id="to"></select>
-      <button onclick="convertCurrency()">Convert</button>
-      <p id="currencyResult"></p>
-    </section>
-
-    <section id="loan">
-      <h2>Loan/EMI Calculator</h2>
-      <input id="loanAmount" type="number" placeholder="Loan Amount">
-      <input id="interestRate" type="number" placeholder="Interest %">
-      <input id="tenure" type="number" placeholder="Years">
-      <button onclick="calculateLoan()">Calculate</button>
-      <p id="loanResult"></p>
-    </section>
-
-    <section id="bmi">
-      <h2>BMI Calculator</h2>
-      <input id="weight" type="number" placeholder="Weight (kg)">
-      <input id="height" type="number" placeholder="Height (cm)">
-      <button onclick="calculateBMI()">Calculate</button>
-      <p id="bmiResult"></p>
-    </section>
-
-    <section id="gpa">
-      <h2>GPA Calculator</h2>
-      <div id="gpaInputs"></div>
-      <button onclick="addCourse()">+ Add Course</button>
-      <button onclick="calculateGPA()">Calculate GPA</button>
-      <p id="gpaResult"></p>
-    </section>
-
-    <section id="age">
-      <h2>Age Calculator</h2>
-      <input type="date" id="dob">
-      <button onclick="calculateAge()">Calculate</button>
-      <p id="ageResult"></p>
-    </section>
-  </main>
-
-  <script src="app.js"></script>
+  <h1>Welcome to Smart Calculator</h1>
+  <p>Free online calculators for math, finance, health, and more.</p>
 </body>
 </html>

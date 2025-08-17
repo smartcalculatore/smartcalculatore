@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smartcalculatore.github.io/smartcalculatore/sitemap.xml
