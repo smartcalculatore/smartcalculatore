@@ -3,11 +3,9 @@
   <url>
     <loc>https://smartcalculatore.github.io/smartcalculatore/</loc>
     <priority>1.0</priority>
-    <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://smartcalculatore.github.io/smartcalculatore/index.html</loc>
-    <priority>0.9</priority>
-    <changefreq>daily</changefreq>
+    <loc>https://smartcalculatore.github.io/smartcalculatore/robots.txt</loc>
+    <priority>0.5</priority>
   </url>
 </urlset>
