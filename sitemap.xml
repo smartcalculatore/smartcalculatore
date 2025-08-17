@@ -10,14 +10,4 @@
     <priority>0.9</priority>
     <changefreq>daily</changefreq>
   </url>
-  <url>
-    <loc>https://smartcalculatore.github.io/smartcalculatore/style.css</loc>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://smartcalculatore.github.io/smartcalculatore/app.js</loc>
-    <priority>0.7</priority>
-    <changefreq>weekly</changefreq>
-  </url>
 </urlset>
