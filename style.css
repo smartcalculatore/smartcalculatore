@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: var(--bg); color: var(--text); }
+header { display: flex; justify-content: space-between; padding: 10px; background: var(--header); }
+section { margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+:root { --bg: #fff; --text: #000; --header: #eee; }
+.dark { --bg: #121212; --text: #fff; --header: #333; }
